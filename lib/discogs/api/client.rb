@@ -1,4 +1,3 @@
-require 'forwardable'
 require 'http'
 
 class Discogs::Api::Client
