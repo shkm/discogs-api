@@ -26,6 +26,13 @@ Cuba.define do
     end
   end
 
+  def search_label(query)
+    case query
+    when 'Heavy Psych Sounds'
+      res.write read_fixture('search', 'labels', 'exists.json')
+    end
+  end
+
   on get do
     on 'database/search' do
       on param('q'), param('type') do |query, type|
@@ -33,6 +40,7 @@ Cuba.define do
         when 'artist' then search_artist(query)
         when 'release' then search_release(query)
         when 'master' then search_master(query)
+        when 'label' then search_label(query)
         end
       end
     end

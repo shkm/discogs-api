@@ -139,5 +139,42 @@ RSpec.describe Discogs::Api::Search do
   end
 
   describe '.label' do
+    let(:params) { { query: 'Heavy Psych Sounds' } }
+
+    it 'sends a search request for the label' do
+      with_fake_discogs_server do
+        subject.label(client, params)
+
+        expect_request(:get, 'database/search', q: 'Heavy Psych Sounds', type: 'label')
+      end
+    end
+
+    it 'returns a successful response with expected data' do
+      with_fake_discogs_server do
+        response = subject.label(client, params)
+
+        expect(response.status).to be_success
+        expect(response.to_h[:pagination]).to eq(
+          per_page: 50,
+          items: 5,
+          page: 1,
+          urls: {},
+          pages: 1
+        )
+        results = response.to_h[:results]
+        expect(results.count).to eq 5
+
+        results.each do |result|
+          expect(result).to have_key(:thumb)
+          expect(result).to have_key(:title)
+          expect(result).to have_key(:uri)
+          expect(result).to have_key(:user_data)
+          expect(result).to have_key(:cover_image)
+          expect(result).to have_key(:resource_url)
+          expect(result).to have_key(:type)
+          expect(result).to have_key(:id)
+        end
+      end
+    end
   end
 end

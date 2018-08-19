@@ -1,0 +1,76 @@
+{
+  "pagination": {
+    "per_page": 50,
+    "items": 5,
+    "page": 1,
+    "urls": {},
+    "pages": 1
+  },
+  "results": [
+    {
+      "thumb": "https://img.discogs.com/hMH6BjvtUgkU-CVc7C_8c9VjjvY=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/L-382437-1349132297-4247.png.jpg",
+      "title": "Heavy Psych Sounds",
+      "uri": "/label/382437-Heavy-Psych-Sounds",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "cover_image": "https://img.discogs.com/2tOGaZfidQq9d8jPqDuwWQn0HuI=/fit-in/344x229/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-382437-1349132297-4247.png.jpg",
+      "resource_url": "https://api.discogs.com/labels/382437",
+      "type": "label",
+      "id": 382437
+    },
+    {
+      "thumb": "",
+      "title": "Heavy Psych Sounds Studios",
+      "uri": "/label/1026732-Heavy-Psych-Sounds-Studios",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "cover_image": "https://img.discogs.com/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/labels/1026732",
+      "type": "label",
+      "id": 1026732
+    },
+    {
+      "thumb": "",
+      "title": "Heavy Psych Sounds Records",
+      "uri": "/label/1337984-Heavy-Psych-Sounds-Records",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "cover_image": "https://img.discogs.com/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/labels/1337984",
+      "type": "label",
+      "id": 1337984
+    },
+    {
+      "thumb": "https://img.discogs.com/oQmSp-E-jJYgQvb8qd5dwleDIbA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/L-501706-1500582469-3253.png.jpg",
+      "title": "STB Records",
+      "uri": "/label/501706-STB-Records",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "cover_image": "https://img.discogs.com/sYe7GKE4RtTeCJWz5tTSuhM3wt4=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-501706-1500582469-3253.png.jpg",
+      "resource_url": "https://api.discogs.com/labels/501706",
+      "type": "label",
+      "id": 501706
+    },
+    {
+      "thumb": "https://img.discogs.com/KdrF2N731-1AWFc-3fNcT472W3E=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/L-50646-1343230810-8837.gif.jpg",
+      "title": "Headspin Records",
+      "uri": "/label/50646-Headspin-Records",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "cover_image": "https://img.discogs.com/TIMuf8H_QVT1XGMqs0Hw9vOjE5c=/fit-in/180x112/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-50646-1343230810-8837.gif.jpg",
+      "resource_url": "https://api.discogs.com/labels/50646",
+      "type": "label",
+      "id": 50646
+    }
+  ]
+}
