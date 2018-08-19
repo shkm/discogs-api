@@ -34,6 +34,10 @@ Cuba.define do
   end
 
   on get do
+    on 'artists/:id' do |id|
+      res.write read_fixture('artists', "#{id}.json")
+    end
+
     on 'database/search' do
       on param('q'), param('type') do |query, type|
         case type
