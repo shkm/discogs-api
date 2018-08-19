@@ -27,15 +27,10 @@ RSpec.describe Discogs::Api::Search do
         results = response.to_h[:results]
         expect(results.count).to eq 4
 
+
         results.each do |result|
-          expect(result).to have_key(:thumb)
-          expect(result).to have_key(:title)
-          expect(result).to have_key(:uri)
-          expect(result).to have_key(:user_data)
-          expect(result).to have_key(:cover_image)
-          expect(result).to have_key(:resource_url)
-          expect(result).to have_key(:type)
-          expect(result).to have_key(:id)
+          expect(result).to have_keys %i[thumb title uri user_data cover_image
+                                         resource_url type id]
         end
       end
     end
@@ -68,23 +63,9 @@ RSpec.describe Discogs::Api::Search do
         expect(results.count).to eq 9
 
         results.each do |result|
-          expect(result).to have_key(:style)
-          expect(result).to have_key(:thumb)
-          expect(result).to have_key(:uri)
-          expect(result).to have_key(:format)
-          expect(result).to have_key(:country)
-          expect(result).to have_key(:barcode)
-          expect(result).to have_key(:user_data)
-          expect(result).to have_key(:community)
-          expect(result).to have_key(:label)
-          expect(result).to have_key(:cover_image)
-          expect(result).to have_key(:catno)
-          expect(result).to have_key(:year)
-          expect(result).to have_key(:genre)
-          expect(result).to have_key(:title)
-          expect(result).to have_key(:resource_url)
-          expect(result).to have_key(:type)
-          expect(result).to have_key(:id)
+          expect(result).to have_keys %i[style thumb uri format country barcode
+                                         user_data community label cover_image catno year
+                                         genre title resource_url type id]
         end
       end
     end
@@ -116,24 +97,9 @@ RSpec.describe Discogs::Api::Search do
         results = response.to_h[:results]
         expect(results.count).to eq 1
 
-        result = results.first
-        expect(result).to have_key(:style)
-        expect(result).to have_key(:thumb)
-        expect(result).to have_key(:uri)
-        expect(result).to have_key(:format)
-        expect(result).to have_key(:country)
-        expect(result).to have_key(:barcode)
-        expect(result).to have_key(:user_data)
-        expect(result).to have_key(:community)
-        expect(result).to have_key(:label)
-        expect(result).to have_key(:cover_image)
-        expect(result).to have_key(:catno)
-        expect(result).to have_key(:year)
-        expect(result).to have_key(:genre)
-        expect(result).to have_key(:title)
-        expect(result).to have_key(:resource_url)
-        expect(result).to have_key(:type)
-        expect(result).to have_key(:id)
+        expect(results.first).to have_keys %i[style thumb uri format country barcode
+                                              user_data community label cover_image catno
+                                              year genre title resource_url type id]
       end
     end
   end
@@ -165,14 +131,8 @@ RSpec.describe Discogs::Api::Search do
         expect(results.count).to eq 5
 
         results.each do |result|
-          expect(result).to have_key(:thumb)
-          expect(result).to have_key(:title)
-          expect(result).to have_key(:uri)
-          expect(result).to have_key(:user_data)
-          expect(result).to have_key(:cover_image)
-          expect(result).to have_key(:resource_url)
-          expect(result).to have_key(:type)
-          expect(result).to have_key(:id)
+          expect(result).to have_keys %i[thumb title uri user_data cover_image
+                                         resource_url type id]
         end
       end
     end
