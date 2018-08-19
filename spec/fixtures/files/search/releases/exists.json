@@ -1,0 +1,339 @@
+{
+  "pagination": {
+    "per_page": 50,
+    "items": 9,
+    "page": 1,
+    "urls": {},
+    "pages": 1
+  },
+  "results": [
+    {
+      "style": [
+        "Stoner Rock",
+        "Indie Rock"
+      ],
+      "thumb": "https://img.discogs.com/leKrpdvwM4moWph2pdvAMunXEH0=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6391751-1418079878-5469.jpeg.jpg",
+      "uri": "/HighKicks-HighKicks/release/6391751",
+      "format": [
+        "Vinyl",
+        "LP"
+      ],
+      "country": "Canada",
+      "barcode": [],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "have": 21,
+        "want": 12
+      },
+      "label": [
+        "Not On Label"
+      ],
+      "cover_image": "https://img.discogs.com/ejPFQEhBeDSAVuemAA3wHfY1_FE=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6391751-1418079878-5469.jpeg.jpg",
+      "catno": "none",
+      "year": "2013",
+      "genre": [
+        "Rock"
+      ],
+      "title": "HighKicks - HighKicks",
+      "resource_url": "https://api.discogs.com/releases/6391751",
+      "type": "release",
+      "id": 6391751
+    },
+    {
+      "style": [
+        "Stoner Rock",
+        "Indie Rock"
+      ],
+      "thumb": "https://img.discogs.com/PXi_XiAQifGOLo0K9EtkvWBIr-4=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-4743941-1374109050-8023.jpeg.jpg",
+      "uri": "/HighKicks-HighKicks/release/4743941",
+      "format": [
+        "Vinyl",
+        "LP"
+      ],
+      "country": "Canada",
+      "barcode": [],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "have": 12,
+        "want": 14
+      },
+      "label": [
+        "Not on label"
+      ],
+      "cover_image": "https://img.discogs.com/xSGepDseEYvGTboWlXCb47aOo30=/fit-in/350x350/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4743941-1374109050-8023.jpeg.jpg",
+      "catno": "none",
+      "year": "2013",
+      "genre": [
+        "Rock"
+      ],
+      "title": "HighKicks - HighKicks",
+      "resource_url": "https://api.discogs.com/releases/4743941",
+      "type": "release",
+      "id": 4743941
+    },
+    {
+      "style": [
+        "Heavy Metal",
+        "Stoner Rock"
+      ],
+      "thumb": "https://img.discogs.com/sYSsxZVQLRGGJitb9KYrlFfa7Qg=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-4625854-1370325559-9751.jpeg.jpg",
+      "uri": "/HighKicks-HighKicks/release/4625854",
+      "format": [
+        "File",
+        "Album"
+      ],
+      "country": "Canada",
+      "barcode": [],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "have": 3,
+        "want": 2
+      },
+      "label": [
+        "Not On Label"
+      ],
+      "cover_image": "https://img.discogs.com/qubUoUzItDCGrISsSjdqs7VSjeA=/fit-in/350x350/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4625854-1370325559-9751.jpeg.jpg",
+      "catno": "none",
+      "year": "2013",
+      "genre": [
+        "Rock"
+      ],
+      "title": "HighKicks - HighKicks",
+      "resource_url": "https://api.discogs.com/releases/4625854",
+      "type": "release",
+      "id": 4625854
+    },
+    {
+      "style": [
+        "Soul"
+      ],
+      "thumb": "https://img.discogs.com/cJiolfZeZkFXx7KeLptGDFASOJ8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8933773-1471772408-4837.jpeg.jpg",
+      "uri": "/Various-Northern-Soul-Backdrops-Highkicks-And-Handclaps/release/8933773",
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "country": "UK",
+      "barcode": [
+        "4050538212532",
+        "METRSL136CD1 12",
+        "METRSL136CD2 12"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "have": 14,
+        "want": 6
+      },
+      "label": [
+        "Metro Select",
+        "Union Square Music Ltd.",
+        "Union Square Music Ltd."
+      ],
+      "cover_image": "https://img.discogs.com/b8ZWtl9KUTcQblITyI3qau_9b4Y=/fit-in/600x539/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8933773-1471772408-4837.jpeg.jpg",
+      "catno": "METRSL136",
+      "year": "2016",
+      "genre": [
+        "Funk / Soul"
+      ],
+      "title": "Various - Northern Soul (Backdrops, Highkicks And Handclaps)",
+      "resource_url": "https://api.discogs.com/releases/8933773",
+      "type": "release",
+      "id": 8933773
+    },
+    {
+      "style": [
+        "Stoner Rock",
+        "Indie Rock"
+      ],
+      "thumb": "https://img.discogs.com/QZTJdiYDQL9h4EM6JEwsERPFOss=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9956344-1489193925-8364.jpeg.jpg",
+      "uri": "/HighKicks-HighKicks/release/9956344",
+      "format": [
+        "CDr",
+        "Album"
+      ],
+      "country": "Canada",
+      "barcode": [],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "have": 1,
+        "want": 0
+      },
+      "label": [
+        "Not On Label"
+      ],
+      "cover_image": "https://img.discogs.com/MVrvIPb2olsdL0V9R0gcxRZrex0=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9956344-1489193925-8364.jpeg.jpg",
+      "catno": "none",
+      "year": "2013",
+      "genre": [
+        "Rock"
+      ],
+      "title": "HighKicks - HighKicks",
+      "resource_url": "https://api.discogs.com/releases/9956344",
+      "type": "release",
+      "id": 9956344
+    },
+    {
+      "style": [],
+      "thumb": "https://img.discogs.com/S0TmDSYsypXQXVEnOkK761OlhrM=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5773320-1402256719-7765.jpeg.jpg",
+      "uri": "/Ringers-Headlocks-Highkicks/release/5773320",
+      "format": [
+        "CD"
+      ],
+      "country": "US",
+      "barcode": [
+        "820320012824"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "have": 1,
+        "want": 0
+      },
+      "label": [
+        "Fort Mason Entertainment"
+      ],
+      "cover_image": "https://img.discogs.com/W8Dq8JjBg8o9K0U3tHL00PwVbqM=/fit-in/200x200/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5773320-1402256719-7765.jpeg.jpg",
+      "catno": "none",
+      "year": "2008",
+      "genre": [
+        "Rock"
+      ],
+      "title": "The Ringers (3) - Headlocks & Highkicks",
+      "resource_url": "https://api.discogs.com/releases/5773320",
+      "type": "release",
+      "id": 5773320
+    },
+    {
+      "style": [
+        "Hardcore"
+      ],
+      "thumb": "https://img.discogs.com/TVSgY4A-dA2YUwZDDR8PFAmmC-o=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2954781-1308954434.jpeg.jpg",
+      "uri": "/From-The-Sidelines-Highkicks-Cartwheels/release/2954781",
+      "format": [
+        "CD",
+        "EP"
+      ],
+      "country": "US",
+      "barcode": [
+        "B004KAHFHW"
+      ],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "have": 1,
+        "want": 0
+      },
+      "label": [
+        "Not On Label (From The Sidelines Self-released)"
+      ],
+      "cover_image": "https://img.discogs.com/2lPtusc7eeX_4-4wnOD8cdMnmmU=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2954781-1308954434.jpeg.jpg",
+      "catno": "none",
+      "year": "2011",
+      "genre": [
+        "Rock"
+      ],
+      "title": "From The Sidelines - Highkicks + Cartwheels",
+      "resource_url": "https://api.discogs.com/releases/2954781",
+      "type": "release",
+      "id": 2954781
+    },
+    {
+      "style": [
+        "Indie Rock"
+      ],
+      "thumb": "https://img.discogs.com/_q3arGe3dhETOaHlR6SiRQWPv9Y=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5525750-1395630797-3370.jpeg.jpg",
+      "uri": "/Various-Palomino-Smokehouse-2013-Compilation/release/5525750",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Compilation"
+      ],
+      "country": "Canada",
+      "barcode": [],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "have": 7,
+        "want": 3
+      },
+      "label": [
+        "Not On Label (Palomino Smokehouse Self -released)"
+      ],
+      "cover_image": "https://img.discogs.com/_-sGSdqbrPniGRvjrV6ga9DPiYM=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5525750-1395630797-3370.jpeg.jpg",
+      "catno": "None Listed",
+      "year": "2014",
+      "genre": [
+        "Rock"
+      ],
+      "title": "Various - Palomino Smokehouse 2013 Compilation",
+      "resource_url": "https://api.discogs.com/releases/5525750",
+      "type": "release",
+      "id": 5525750
+    },
+    {
+      "style": [
+        "Alternative Rock",
+        "Hardcore",
+        "Punk"
+      ],
+      "thumb": "https://img.discogs.com/7P4IEcoL7EpOX6pH2U8IM4FSbF4=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8082799-1454795568-6558.jpeg.jpg",
+      "uri": "/Various-Stages-Vol-1/release/8082799",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Compilation",
+        "Stereo",
+        "CD",
+        "Compilation",
+        "Stereo"
+      ],
+      "country": "Canada",
+      "barcode": [],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "have": 1,
+        "want": 0
+      },
+      "label": [
+        "Big Block Music"
+      ],
+      "cover_image": "https://img.discogs.com/L7Ge6DIMU-KRIJmWg5crWLjgw3E=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8082799-1454795568-6558.jpeg.jpg",
+      "catno": "BigBlockMusic-1501",
+      "year": "2016",
+      "genre": [
+        "Hip Hop",
+        "Rock",
+        "Pop",
+        "Folk, World, & Country"
+      ],
+      "title": "Various - Stages Vol. 1",
+      "resource_url": "https://api.discogs.com/releases/8082799",
+      "type": "release",
+      "id": 8082799
+    }
+  ]
+}
