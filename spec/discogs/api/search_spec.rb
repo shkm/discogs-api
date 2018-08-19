@@ -7,13 +7,7 @@ RSpec.describe Discogs::Api::Search do
         params = { query: 'Electric Octopus' }
         subject.artist(client, params)
 
-        expect(WebMock)
-          .to have_requested(:get, 'http://localhost:8080/database/search')
-          .with(
-            query: { q: 'Electric Octopus', type: 'artist' },
-            headers: { 'Authorization' => 'Discogs token=token',
-                       'User-Agent' => 'user-agent'}
-          )
+        expect_request(:get, 'database/search', q: 'Electric Octopus', type: 'artist')
       end
     end
 
