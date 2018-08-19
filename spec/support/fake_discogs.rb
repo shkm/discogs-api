@@ -19,12 +19,20 @@ Cuba.define do
     end
   end
 
+  def search_master(query)
+    case query
+    when 'HighKicks'
+      res.write read_fixture('search', 'masters', 'exists.json')
+    end
+  end
+
   on get do
     on 'database/search' do
       on param('q'), param('type') do |query, type|
         case type
         when 'artist' then search_artist(query)
         when 'release' then search_release(query)
+        when 'master' then search_master(query)
         end
       end
     end

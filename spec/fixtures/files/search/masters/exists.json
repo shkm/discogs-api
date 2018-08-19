@@ -1,0 +1,46 @@
+{
+  "pagination": {
+    "per_page": 50,
+    "items": 1,
+    "page": 1,
+    "urls": {},
+    "pages": 1
+  },
+  "results": [
+    {
+      "style": [
+        "Stoner Rock",
+        "Indie Rock"
+      ],
+      "thumb": "https://img.discogs.com/leKrpdvwM4moWph2pdvAMunXEH0=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6391751-1418079878-5469.jpeg.jpg",
+      "uri": "/HighKicks-HighKicks/master/767888",
+      "format": [
+        "Vinyl",
+        "LP"
+      ],
+      "country": "Canada",
+      "barcode": [],
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "community": {
+        "have": 37,
+        "want": 28
+      },
+      "label": [
+        "Not On Label"
+      ],
+      "cover_image": "https://img.discogs.com/ejPFQEhBeDSAVuemAA3wHfY1_FE=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6391751-1418079878-5469.jpeg.jpg",
+      "catno": "none",
+      "year": "2013",
+      "genre": [
+        "Rock"
+      ],
+      "title": "HighKicks - HighKicks",
+      "resource_url": "https://api.discogs.com/masters/767888",
+      "type": "master",
+      "id": 767888
+    }
+  ]
+}
