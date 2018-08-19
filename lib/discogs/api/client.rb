@@ -1,11 +1,13 @@
 require 'forwardable'
+require 'http'
 
 class Discogs::Api::Client
-  extend Forwardable
+  def initialize(auth_token, user_agent)
+    @client = HTTP.auth("Discogs token=#{auth_token}")
+              .headers(user_agent: user_agent)
+  end
 
-  def_delegators :@client, :get
-
-  def initialize(auth_token)
-    @client = HTTP.auth("Discogs #{auth_token}")
+  def get(*args)
+    Discogs::Api::Response.new(@client.get(*args))
   end
 end

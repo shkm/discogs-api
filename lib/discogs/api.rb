@@ -4,6 +4,7 @@ module Discogs
   module Api; end
 end
 
-require 'api/url'
-require 'api/client'
-require 'api/search'
+require 'discogs/api/url'
+require 'discogs/api/response'
+require 'discogs/api/client'
+require 'discogs/api/search'

@@ -1,7 +1,7 @@
 module Discogs::Api::Url
-  BASE_URL = "https://api.discogs.com"
+  BASE_URL = 'https://api.discogs.com'.freeze
 
-  def self.path(*segments)
-    [BASE_URI, *segments].join('/')
+  def self.resolve(*segments)
+    [BASE_URL, *segments].join('/')
   end
 end

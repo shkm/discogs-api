@@ -1,0 +1,63 @@
+{
+  "pagination": {
+    "per_page": 50,
+    "items": 4,
+    "page": 1,
+    "urls": {},
+    "pages": 1
+  },
+  "results": [
+    {
+      "thumb": "https://img.discogs.com/oZRnrJNh2482-Kn8SrdKqn-Bn0M=/150x150/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-5272208-1474406265-6268.jpeg.jpg",
+      "title": "Electric Octopus",
+      "uri": "/artist/5272208-Electric-Octopus",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "cover_image": "https://img.discogs.com/qj-zicsl_3nUe3bZfqiL1oc5jdE=/600x606/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-5272208-1474406265-6268.jpeg.jpg",
+      "resource_url": "https://api.discogs.com/artists/5272208",
+      "type": "artist",
+      "id": 5272208
+    },
+    {
+      "thumb": "",
+      "title": "Octopus's Garden",
+      "uri": "/artist/1624035-Octopuss-Garden",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "cover_image": "https://img.discogs.com/images/spacer.gif",
+      "resource_url": "https://api.discogs.com/artists/1624035",
+      "type": "artist",
+      "id": 1624035
+    },
+    {
+      "thumb": "https://img.discogs.com/XKN3gwU85F2foGDATv_3887NBXc=/150x150/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-671224-1396034614-3119.jpeg.jpg",
+      "title": "Dirk Jan Müller",
+      "uri": "/artist/671224-Dirk-Jan-Müller",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "cover_image": "https://img.discogs.com/Ivta2p9jyw2tOa77S8bIq_GMsv4=/578x600/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-671224-1396034614-3119.jpeg.jpg",
+      "resource_url": "https://api.discogs.com/artists/671224",
+      "type": "artist",
+      "id": 671224
+    },
+    {
+      "thumb": "https://img.discogs.com/p66dtUnz08i1MUmSvlGPeAIpRk0=/150x150/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/A-2264230-1425069274-7018.jpeg.jpg",
+      "title": "La Batteria",
+      "uri": "/artist/2264230-La-Batteria",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "cover_image": "https://img.discogs.com/0Jmr7PlA0i9kb3nlGe3ePU4TiyI=/600x386/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-2264230-1425069274-7018.jpeg.jpg",
+      "resource_url": "https://api.discogs.com/artists/2264230",
+      "type": "artist",
+      "id": 2264230
+    }
+  ]
+}

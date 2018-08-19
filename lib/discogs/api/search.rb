@@ -1,12 +1,13 @@
 module Discogs::Api::Search
-  # def QUERY_PARAMS = %i[per_page page query type title release_title
-  #                       credit artist anv label genre style country year
-  #                       format catno barcode track submitter contributor]
-  # def SEARCH_TYPES = %i[]
-  # MAX_PER_PAGE = 100
+  def self.artist(client, params = {})
+    execute(client, { type: :artist }.merge(params))
+  end
 
-  def execute(client, params: {})
-    path = Discogs::Api::Url.resolve('database', 'search')
-    client.get(path, params: params)
+  private_class_method def self.execute(client, params = {})
+    params[:q] = params.delete(:query) if params[:query]
+
+    url = Discogs::Api::Url.resolve('database', 'search').freeze
+
+    client.get(url, params: params)
   end
 end

@@ -1,5 +1,8 @@
-require "bundler/setup"
-require "discogs/api"
+require 'bundler/setup'
+require 'discogs/api'
+require 'webmock/rspec'
+require 'support/helpers/fake_discogs_helper'
+require 'support/helpers/fixtures_helper'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
@@ -10,5 +13,26 @@ RSpec.configure do |config|
 
   config.expect_with :rspec do |c|
     c.syntax = :expect
+  end
+
+  config.include FakeDiscogsHelper
+  config.include FixturesHelper
+
+  config.before(:suite) do
+    WebMock.disable_net_connect!(allow_localhost: true)
+
+    server_started = false
+
+    Thread.new do
+      require 'support/fake_discogs.rb'
+      Rack::Handler::WEBrick.run(
+        Cuba,
+        Logger: WEBrick::Log.new(File.open(File::NULL, 'w')),
+        AccessLog: [],
+        StartCallback: -> { server_started = true }
+      )
+    end
+
+    sleep(0.1) until server_started
   end
 end
