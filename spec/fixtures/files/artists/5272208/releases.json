@@ -1,0 +1,76 @@
+{
+  "pagination": {
+    "per_page": 50,
+    "items": 3,
+    "page": 1,
+    "urls": {},
+    "pages": 1
+  },
+  "releases": [
+    {
+      "status": "Accepted",
+      "stats": {
+        "user": {
+          "in_collection": 0,
+          "in_wantlist": 0
+        },
+        "community": {
+          "in_collection": 12,
+          "in_wantlist": 23
+        }
+      },
+      "thumb": "https://img.discogs.com/AJKTxP4XcxrLPl4MsXA-6ZqcwFY=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9161577-1475864463-3509.jpeg.jpg",
+      "title": " Under A Black Moon",
+      "format": "CDr",
+      "label": "Not On Label",
+      "role": "Main",
+      "year": 2016,
+      "resource_url": "https://api.discogs.com/releases/9161577",
+      "artist": "Electric Octopus",
+      "type": "release",
+      "id": 9161577
+    },
+    {
+      "stats": {
+        "user": {
+          "in_collection": 0,
+          "in_wantlist": 0
+        },
+        "community": {
+          "in_collection": 18,
+          "in_wantlist": 43
+        }
+      },
+      "thumb": "https://img.discogs.com/ZJauPruns-qKVLCUVdm2stxMVxs=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9079879-1474406213-4658.jpeg.jpg",
+      "artist": "Electric Octopus",
+      "main_release": 9079879,
+      "title": "This Is Our Culture",
+      "role": "Main",
+      "year": 2016,
+      "resource_url": "https://api.discogs.com/masters/1336774",
+      "type": "master",
+      "id": 1336774
+    },
+    {
+      "stats": {
+        "user": {
+          "in_collection": 0,
+          "in_wantlist": 0
+        },
+        "community": {
+          "in_collection": 26,
+          "in_wantlist": 77
+        }
+      },
+      "thumb": "https://img.discogs.com/WaygePl_iuJPbIsCgTgIGFRkKcI=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10850917-1505342237-8586.jpeg.jpg",
+      "artist": "Electric Octopus",
+      "main_release": 10850917,
+      "title": "Smokyhead",
+      "role": "Main",
+      "year": 2017,
+      "resource_url": "https://api.discogs.com/masters/1269664",
+      "type": "master",
+      "id": 1269664
+    }
+  ]
+}

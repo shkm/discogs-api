@@ -34,8 +34,12 @@ Cuba.define do
   end
 
   on get do
+    on 'artists/:id/releases' do |id|
+      res.write read_fixture('artists', id, 'releases.json')
+    end
+
     on 'artists/:id' do |id|
-      res.write read_fixture('artists', "#{id}.json")
+      res.write read_fixture('artists', id, 'get.json')
     end
 
     on 'database/search' do
