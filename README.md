@@ -1,5 +1,6 @@
 # Discogs::Api
 
+[![Gem Version](https://badge.fury.io/rb/discogs-api.svg)](https://badge.fury.io/rb/discogs-api)
 [![Build Status](https://travis-ci.org/shkm/discogs-api.svg?branch=master)](https://travis-ci.org/shkm/discogs-api)
 [![codecov](https://codecov.io/gh/shkm/discogs-api/branch/master/graph/badge.svg)](https://codecov.io/gh/shkm/discogs-api)
 [![Maintainability](https://api.codeclimate.com/v1/badges/07116b2d10b61e6c2726/maintainability)](https://codeclimate.com/github/shkm/discogs-api/maintainability)
