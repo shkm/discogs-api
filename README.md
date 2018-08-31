@@ -7,7 +7,7 @@
 
 A simple wrapper around the [Discogs API](https://www.discogs.com/developers/).
 
-Currently heavily WIP. See [Implemented Endpoints](#user-content-implemented-endpoints)
+I'm only aiming to implement endpoints that I actually use at this time, which is a very small subset of what's available. See [Implemented Endpoints](#user-content-implemented-endpoints) and consider opening an issue or PR if you need more.
 
 
 ## Installation
@@ -75,7 +75,7 @@ Discogs::Api::Artist.releases(client, 5272208)
 - [x] Search
   - [x] GET [database/search](https://www.discogs.com/developers/#page:database,header:database-search-get)
 
-There are more endpoints regarding the marketplace, user identity, user collection, user wantlists, and user lists. I'm not including those at the moment as they're out of the scope of what I want to do with this gem, but feel free to make a PR.
+There are more endpoints regarding the marketplace, user identity, user collection, user wantlists, and user lists. I have no intention at all of implementing those at the moment.
 
 ## Contributing
 
