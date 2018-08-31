@@ -1,5 +1,9 @@
 # Discogs::Api
 
+[![Build Status](https://travis-ci.org/shkm/discogs-api.svg?branch=master)](https://travis-ci.org/shkm/discogs-api)
+[![codecov](https://codecov.io/gh/shkm/discogs-api/branch/master/graph/badge.svg)](https://codecov.io/gh/shkm/discogs-api)
+
+
 A simple wrapper around the [Discogs API](https://www.discogs.com/developers/).
 
 Currently heavily WIP. See [Implemented Endpoints](#user-content-implemented-endpoints)

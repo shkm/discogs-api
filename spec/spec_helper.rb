@@ -1,3 +1,5 @@
+require 'simplecov'
+require 'codecov'
 require 'bundler/setup'
 require 'discogs/api'
 require 'webmock/rspec'
@@ -5,6 +7,9 @@ require 'support/helpers/fake_discogs_helper'
 require 'support/helpers/fixtures_helper'
 require 'support/helpers/hash_helper'
 require 'support/helpers/request_helper'
+
+SimpleCov.start
+SimpleCov.formatter = SimpleCov::Formatter::Codecov
 
 RSpec.configure do |config|
   config.include FakeDiscogsHelper
