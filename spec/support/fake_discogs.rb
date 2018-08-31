@@ -54,3 +54,6 @@ Cuba.define do
     end
   end
 end
+
+# If this file is loaded from the command line, start the server
+Rack::Handler::WEBrick.run(Cuba) if $PROGRAM_NAME == __FILE__

@@ -1,7 +1,7 @@
 module Discogs::Api::Url
-  BASE_URL = 'https://api.discogs.com'.freeze
+  DEFAULT_ENDPOINT = 'https://api.discogs.com'.freeze
 
   def self.resolve(*segments)
-    [BASE_URL, *segments].join('/')
+    [ENV.fetch('DISCOGS_ENDPOINT', DEFAULT_ENDPOINT), *segments].join('/')
   end
 end
